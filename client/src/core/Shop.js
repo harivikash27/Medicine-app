@@ -129,15 +129,6 @@ const Shop = () => {
     >
       <Search />
       <div className='row'>
-        <div className='col-md-3'>
-          <h4>Filter by categories</h4>
-          <ul>
-            <Checkbox
-              categories={categories}
-              handleFilters={(filters) => handleFilters(filters, 'category')}
-            />
-          </ul>
-        </div>
 
         <div className='col-md-9'>
           <h2 className='mb-2'>Products</h2>
